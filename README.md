@@ -4,7 +4,7 @@ AvatarX is a public blockchain network for personalized artificial intelligence 
 
 More infomation please visit
 
-+ [Official WebSite](https://www.avatarx.io)
++ Official WebSite: [avatarx.io](https://www.avatarx.io)
 + Online Wallet: [wallet.avatarx.io](https://wallet.avatarx.io/)
 + Blockchain Explorer: [explorer.avatarx.io](https://explorer.avatarx.io/)
 
@@ -18,10 +18,9 @@ More infomation please visit
 - libssl
 
 ## Run 
-
 ```
-
-cd avatarx-test && node app.js
+$ git clone https://github.com/AvatarXChain/avatarx-testnet.git
+$ cd avatarx-test && node app.js
 ```
 Then you can open ```http://localhost:4096``` in you browser.
 
