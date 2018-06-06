@@ -21,6 +21,10 @@ function verifyGenesisBlock(scope, block) {
 
     var id = scope.base.block.getId(block);
 
+    console.log(id)
+
+    // console.log(payloadHash.digest().toString('hex'))
+
     assert.equal(payloadLength, block.payloadLength, 'Unexpected payloadLength');
     assert.equal(payloadHash.digest().toString('hex'), block.payloadHash, 'Unexpected payloadHash');
     assert.equal(id, block.id, 'Unexpected block id');
